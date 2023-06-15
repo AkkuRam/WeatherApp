@@ -1,0 +1,400 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  user-select: none;
+}
+
+body {
+  background-color: rgb(36, 33, 36);
+}
+
+select {
+  background-color: #f2f2f2;
+  color: #333;
+  width: 250px;
+  height: 40px;
+  opacity: 0.5;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Unit {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.temperature-container {
+  width: 350px;
+  background-color: #292626;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.wind-container {
+  width: 350px;
+  background-color: #292626;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.air-pressure-container {
+  width: 350px;
+  background-color: #292626;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.visibility-container {
+  width: 350px;
+  background-color: #292626;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.temp {
+  color: #fff;
+}
+
+.wind {
+  color: #fff;
+}
+
+.air-pressure {
+  color: #fff;
+}
+
+.visibility {
+  color: #fff;
+}
+
+.container {
+  width: 450px;
+  height: 750px;
+  margin: 100px auto;
+  background: linear-gradient(to bottom, #2e2d2f, #1b1a1d);
+  border-radius: 30px;
+  overflow: auto;
+}
+
+.logo {
+  position: relative;
+}
+
+.logo img {
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+}
+
+.image1 {
+  width: 150px;
+  height: 150px;
+  margin-left: 130px;
+}
+
+.image2 {
+  width: 50px;
+  height: 50px;
+  margin-right: 90px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.image3 {
+  width: 40px;
+  height: auto;
+  margin-right: 30px;
+  padding-top: 8px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.image4 {
+  width: 40px;
+  height: auto;
+  margin-left: 30px;
+  margin-top: 10px;
+  top: 0;
+  left: 0;
+}
+
+.image5 {
+  width: 40px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 10px;
+  top: 0;
+  left: 0;
+}
+
+.current-weather {
+  width: 350px;
+  height: 200px;
+  background-color: #292626;
+  margin: 50px auto;
+  border-radius: 30px;
+  margin-top: 200px;
+}
+
+.bottom-text-container {
+  color: #fff;
+  font-size: 0.8rem;
+  padding-left: 20px;
+  opacity: 0.4;
+}
+
+.container-title {
+  color: #fff;
+  font-size: 0.9rem;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.temperature {
+  font-size: 2.5rem;
+  text-indent: -120px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.weather {
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  padding-left: 20px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 300px;
+  background-color: #292626;
+  margin: 40px auto;
+  border-radius: 20px;
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.days p {
+  padding-top: 10px;
+  color: white;
+  font-size: 0.9rem;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.days-information {
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 15px;
+  margin-top: -230px; /* moves the div up by 20px */
+  margin-left: auto; /* moves the div to the right */
+}
+
+.days-information p {
+  font-size: 0.9rem;
+  padding-right: 80px;
+  margin: 0;
+  text-align: left;
+}
+
+.day-temp {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  gap: 15px;
+  margin-top: -245px; /* moves the div up by 20px */
+  margin-left: auto;
+  margin-right: -80px;
+}
+
+.days-information p {
+  font-size: 0.9rem;
+  padding-right: 80px;
+  margin: 0;
+  text-align: left;
+}
+
+.overflow-container-1,
+.overflow-container-2 {
+  width: 165px;
+  height: 140px;
+  background-color: #292626;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.overflow-container-1 {
+  float: left;
+}
+
+.overflow-container-all{
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-top: -40px;
+    text-align: center;
+    color: #fff;
+}
+
+.overflow-container-4-air{
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-top: -50px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.overflow-container-2 {
+  float: right;
+}
+
+.overflow-container-3,
+.overflow-container-4 {
+  width: 165px;
+  height: 140px;
+  background-color: #292626;
+  border-radius: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 20px;
+}
+
+.overflow-container-3 {
+  float: left;
+}
+
+.overflow-container-4 {
+  float: right;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.back-button {
+  width: 50px;
+  height: auto;
+  display: inline-block;
+}
+
+.input-container {
+  text-align: center;
+  margin: 50px auto;
+}
+
+input[type="text"],
+button[type="button"] {
+  vertical-align: middle;
+}
+
+input[type="text"] {
+  font-size: 1.3rem;
+  background: #333;
+  width: 300px;
+  height: 50px;
+  border: none;
+  outline: none;
+  border-radius: 25px 0 0 25px;
+}
+button[type="button"] {
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  width: 50px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: purple;
+}
+.cityBox {
+  background-color: purple;
+  color: #fff;
+  padding: 10px;
+  margin: 20px;
+  display: block;
+  border-radius: 20px;
+  width: auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cityBox .deleteButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.weatherInfo {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.tempInfo {
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.weatherButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.weatherButton:hover {
+  background: linear-gradient(to bottom, #000080, #000000);
+}
+
+.tempButton {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.tempButton:hover {
+  background: linear-gradient(to bottom, #000080, #000000);
+}
+
+#WorldMap {
+  width: 100%;
+  height: 50%;
+}
+
+
+.city-title{
+  margin-left: 40px;
+  font-size: 1.8rem;
+  color: #fff;
+}

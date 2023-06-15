@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <title>City</title>
+</head>
+<body>
+    <div class="container">
+        <a href="main.html">
+            <img src="Images/backbutton.png" class="image4"> 
+        </a>
+
+        <div class="input-container"> 
+           
+                <input type="text" id="cityInput" placeholder="Enter a city name..." autocomplete="off">
+                <button type="button" onclick="addCity()">Add</button>
+            <p id="InvalidInput" style="color: red; display: none;">Invalid input. Input cannot be empty.</p>
+        </div>
+
+        <div id="cityList"></div>
+        
+
+         
+    </div>
+</body>
+</html>
